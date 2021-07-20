@@ -1,0 +1,9 @@
+int16 Base_Angle 
+float32 Base_Acc
+float32 Base_Brake
+float32 Base_Vehspd
+uint8 Base_Gear_Flag
+float32 Base_FL_Spd
+float32 Base_FR_Spd
+float32 Base_BL_Spd
+float32 Base_BR_Spd

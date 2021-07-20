@@ -1,0 +1,6 @@
+<launch>
+	<node name ="pure_pursuit" pkg="base_controller" type="improve_pure_pursuit.py" output ="screen"/>
+	<!--node name ="LQR_control" pkg="base_controller" type="lqr_speed_steer_control.py" output ="screen"-->
+	<!--node name ="pure_pursuit" pkg="base_controller" type="stop_work_control.py" output ="screen"-->
+
+</launch> 

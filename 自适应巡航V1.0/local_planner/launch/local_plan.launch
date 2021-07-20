@@ -1,0 +1,3 @@
+<launch>
+	<node name ="AvoidObstacles_PlannerOut" pkg="local_planner" type="path_planning.py" output ="screen"/>  
+</launch> 

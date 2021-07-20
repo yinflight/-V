@@ -1,0 +1,5 @@
+<launch>
+   
+    <node name ="dynamic_tf_pub" pkg="mytf" type="my_talker" output ="screen"/>
+    <!--node name ="sub_frames" pkg="mytf" type="my_listener" output ="screen"-->
+</launch>

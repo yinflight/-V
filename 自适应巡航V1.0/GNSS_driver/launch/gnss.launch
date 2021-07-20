@@ -1,0 +1,8 @@
+
+<launch>
+	<node name ="GNSS_CAN" pkg="GNSS_driver" type="GNSS_CAN" output ="screen"/>  
+	<!--node pkg="tf" type="static_transform_publisher" name="gnss_publisher" args="-1 0 0.5 0 0 0 base_link gnss 100" -->
+	<node pkg="tf2_ros" type="static_transform_publisher" name="gnss_publisher" args="-1 0 0.5 1.57 0 0 /base_link /gnss" output="screen" />
+	<node pkg="tf2_ros" type="static_transform_publisher" name="odom_publisher" args="0 -1 -0.5 -1.57 0 0 /odom /base_link" output="screen" />
+
+</launch> 

@@ -1,0 +1,5 @@
+
+<launch>
+	<node name ="Motor_CAN" pkg="CAN_driver" type="Motor_CAN" output ="screen"/>
+	<node name ="Motor_Control" pkg="CAN_driver" type="Motor_Control" output ="screen"/>
+</launch> 
